@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.q3__ {
+  width: 100%;
+  border: 1px solid #dedede;
+  table-layout: fixed;
+}
 
-/* 回答はここに書いてね */
+.q3__ th,
+.q3__ td {
+  padding: 10px;
+  border: 1px solid #dedede;
+  text-align: center;
+}
+
+.q3__ th{
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3__ > tbody > tr:last-child {
+  border-top: 2px dashed #000;
+}
+
+.q3__ > tbody > tr:nth-child(even){
+  background-color: #ecf1f2;
+}

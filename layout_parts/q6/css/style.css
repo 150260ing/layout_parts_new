@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.q6--horizontal .textbox {
+  padding: 10px 0;
+  width: 90px;
+  background-color: #e6f2ff;
+}
 
-/* 回答はここに書いてね */
+.q6_box.is_textalign .q6_box_white {
+  text-align: center;
+}
+
+.q6_box.is_textalign .textbox {
+  display: inline-block;
+}
+
+.q6_box.is_margin .textbox {
+  margin: 0 auto;
+  text-align: center;
+}
