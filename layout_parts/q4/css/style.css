@@ -5,13 +5,13 @@
   background-color: #ecf1f2;
 }
 
-.q4__ {
+.q4__box {
  display: table;
  width: 100%;
  margin-top: 20px;
 }
 
-.q4__:first-child{
+.q4__:first-child {
   margin-top: 0;
 }
 
@@ -38,9 +38,11 @@
 .is_yellow {
   background-color: #E5D32E;
 }
+
 .is_red {
   background-color: #EC8F9A;
 }
+
 .is_green {
   width: 500px;
   background-color: #8FDCAD;

@@ -1,59 +1,65 @@
 @charset "UTF-8";
 
-.q6--horizontal .q6-box-text {
+.q6-box-text {
   padding: 10px 0;
   width: 90px;
   background-color: #e6f2ff;
 }
 
-.q6_box.is-textalign .whitebox {
+.whitebox {
   text-align: center;
 }
 
-.q6_box.is-textalign .q6-box-text {
+.is-textalign .q6-box-text {
   display: inline-block;
 }
 
-.q6_box.is-margin .q6-box-text {
+.is-margin .q6-box-text {
   margin: 0 auto;
   text-align: center;
 }
 
-.q6--around.is-table {
+.is-table {
   display: table;
 }
-.q6--around.is-table .q6-box2 {
+
+.q6-box2 {
   display: table-cell;
   background-color: #ECF1F2;
   text-align: center;
   vertical-align: middle;
 }
-.q6--around.is-table .q6-box-text2 {
+
+.q6-box-text2 {
   display: inline-block;
   padding: 10px;
   background-color: #FFF;
 }
 
-.q6--around.is-flex {
+.is-flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.q6--around.is-flex .q6-box-text2 {
+
+.is-flex .q6-box-text2 {
   padding: 10px;
   background-color: #FFF;
 }
-.q6--position .q6-box2 {
+
+.q6__box3 {
   position: relative;
 }
-.q6-box2.is-stable .q6__box__inner {
+
+.is-stable .q6__box__inner {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   margin: auto;
 }
-.q6-box2.is-flexible .q6__box__inner {
+
+.is-flexible .q6__box__inner {
   position: absolute;
   top: 50%;
   left: 50%;

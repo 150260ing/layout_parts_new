@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.clearfix::after{
+.clearfix::after {
   display: block;
   content: "";
   clear: both;
@@ -18,14 +18,14 @@
   padding: 20px;
   background-color: #3274ae;
   float: left;
+  width: 230px;
 }
 
-.blue:first-child{
+.blue:first-child {
   margin-left: 0;
 }
 
-.coments{
-  width: 170px;
+.coments {
   padding: 20px;
   border: solid 10px #022336;
   background-color: #eaf4ff;
