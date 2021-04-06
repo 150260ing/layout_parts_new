@@ -42,11 +42,6 @@
   justify-content: center;
 }
 
-.is-flex .q6-box-text2 {
-  padding: 10px;
-  background-color: #FFF;
-}
-
 .q6--position .q6__box {
   position: relative;
 }
